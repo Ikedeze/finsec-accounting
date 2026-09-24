@@ -1,4 +1,5 @@
 💼 FinSec Accounting
+
 FinSec Accounting is a zero-dependency desktop application designed to simplify financial management and reporting for organizations.
 
 📖 The "Why"
