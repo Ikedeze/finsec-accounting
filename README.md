@@ -27,7 +27,14 @@ FinSec Accounting replaces scattered spreadsheets with an intuitive, secure UI. 
 3. Ensure you have a local MongoDB instance running on port `27017`.
 4. Double-click `FinSec Accounting.exe` to launch the application.
 
-## 🗺️ Roadmap
-- [ ] Migrate database to **MongoDB Atlas** for full cloud connectivity.
-- [ ] Implement PDF and Excel report generation.
-- [ ] Transition from local data to real-time cloud synchronization.
+## 💻 Building from Source
+```bash
+# 1. Clone the repo
+git clone [https://github.com/Ikedeze/finsec-accounting.git](https://github.com/Ikedeze/finsec-accounting.git)
+cd finsec-accounting
+
+# 2. Build the executable JAR
+.\mvnw clean package -DskipTests
+
+# 3. Create the Windows App-Image (Requires jpackage)
+jpackage --type app-image --name "FinSec Accounting" --input target --main-jar financial-secretary-app-0.0.1-SNAPSHOT.jar --main-class org.springframework.boot.loader.launch.JarLauncher --dest dist
