@@ -50,4 +50,4 @@ Ikechukwu Udeze
 
 Java Developer | Aspiring Cybersecurity Professional
 
-[LinkedIn]([https://linkedin.com/](https://www.linkedin.com/in/ikechukwu-udeze-531848389/)) • [GitHub](https://github.com/Ikedeze)
+[LinkedIn](https://www.linkedin.com/in/ikechukwu-udeze-531848389/) • [GitHub](https://github.com/Ikedeze)
